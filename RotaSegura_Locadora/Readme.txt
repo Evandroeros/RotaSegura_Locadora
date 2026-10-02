@@ -1,56 +1,62 @@
-PROJETO ROTA SEGURA - LOCADORA DE VEICULOS
+========================================================================
+               SISTEMA DE LOCADORA DE VEÍCULOS - ROTA SEGURA
+========================================================================
 
-REQUISITOS
-- Java 17 ou superior.
-- Eclipse IDE.
+1. DESCRIÇÃO DO PROJETO
+-----------------------
+O RotaSegura é um sistema desenvolvido em Java projetado para gerenciar
+as operações de uma locadora de automóveis. O software lida com o 
+cadastro de clientes, controle de diferentes categorias de veículos, 
+emissão e persistência de contratos, além da geração de relatórios.
 
-ESTRUTURA
+2. ARQUITETURA E COMPONENTES DO SISTEMA
+---------------------------------------
+O projeto está estritamente estruturado sob o pacote 'rota_segura':
 
-src/
-  rota_segura/
-    Main.java
+* model/
+  - Veiculo (Classe abstrata base para a frota)
+  - Popular, Sedan, SUV (Especializações de Veiculo com regras próprias)
+  - Cliente (Dados cadastrais do locatário)
+  - Contrato (Entidade que une Cliente, Veiculo e período de locação)
 
-    exception/
-      LocadoraException.java
+* service/
+  - Locadora (Gerencia o fluxo de locações e regras de negócio principais)
+  - Documento & ContratoDocumento (Abstração e geração de arquivos de contratos)
+  - Persistencia (Mecanismo para salvar/carregar dados do sistema)
+  - RelatorioAnalitico & RelatorioFechamento (Geração de relatórios de auditoria)
 
-    model/
-      Cliente.java
-      Contrato.java
-      Veiculo.java
-      Popular.java
-      Sedan.java
-      SUV.java
+* exception/
+  - LocadoraException (Tratamento personalizado de erros de negócio)
 
-    service/
-      Locadora.java
-      Documento.java
-      ContratoDocumento.java
-      RelatorioFechamento.java
-      RelatorioAnalitico.java
-      Persistencia.java
+* Main.java
+  - Ponto de entrada do aplicativo que executa o fluxo do sistema.
 
-COMO EXECUTAR
+3. REQUISITOS DO AMBIENTE
+--------------------------
+* Java Development Kit: JDK 8 ou superior (Recomendado Java 17 LTS)
+* IDE Recomendada: Eclipse (projeto contém metadados .classpath/.project) 
+  ou IntelliJ IDEA / VS Code.
 
-1. Abra o Eclipse.
-2. File > Import > Existing Projects into Workspace.
-3. Selecione a pasta RotaSegura_Locadora.
-4. Clique em Finish.
-5. No Package Explorer, abra src > rota_segura.
-6. Clique com o botao direito em Main.java.
-7. Run As > Java Application.
+4. COMO EXECUTAR O PROJETO
+---------------------------
+Via IDE (Método Recomendado):
+1. Abra sua IDE (ex: Eclipse ou IntelliJ).
+2. Importe o projeto contido na pasta "RotaSegura_Locadora".
+3. Execute a classe principal 'Main.java' localizada no pacote 'rota_segura'.
 
-O sistema possui:
-- Cadastro de clientes com ID automatico.
-- Cadastro de veiculos.
-- Categorias Popular, Sedan e SUV.
-- Calculo de diaria, seguro e manutencao.
-- Controle de disponibilidade.
-- Criacao e encerramento de contratos.
-- Relatorio de fechamento.
-- Persistencia do historico em TXT.
-- Dashboard com KPIs.
-- Filtros por CPF, placa, categoria e periodo.
+Via Linha de Comando (Terminal):
+1. Abra o prompt na pasta raiz do código fonte (onde fica a pasta 'rota_segura').
+2. Compile todos os arquivos:
+   javac rota_segura/*.java rota_segura/model/*.java rota_segura/service/*.java rota_segura/exception/*.java
+3. Execute a aplicação:
+   java rota_segura.Main
 
-OBSERVACAO
-O projeto foi organizado em pacotes separados para facilitar
-manutencao, entendimento e aplicacao dos conceitos de POO.
+5. PERSISTÊNCIA DE DADOS
+------------------------
+O sistema grava as movimentações e o histórico de execuções diretamente
+no arquivo local:
+* RotaSegura_Locadora/historico_locacoes.txt
+
+========================================================================
+                     Desenvolvido por: Evandro - DSM
+========================================================================

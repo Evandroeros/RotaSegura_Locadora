@@ -122,7 +122,7 @@ Diagrama de Classes UML (Simples):
     RelatorioFechamento "1" --> "*" Contrato
     RelatorioAnalitico "1" --> "*" Contrato
 
-Elaborado por: 
+Desenvolvido por: 
 Evandro Rodrigo Olian - 
 RA 1301392611014 - 
 Curso DSM - Fatec

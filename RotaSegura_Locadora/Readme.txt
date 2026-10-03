@@ -53,7 +53,8 @@ Via Linha de Comando (Terminal):
 6. Abra a nova pasta gerada: Pasta Extraída.
 7. Entre na nova pasta que foi criada com o nome RotaSegura;
 8. Abra o CMD diretamente na pasta: Barra Superior;
-9. Com a pasta aberta, onde se encontra o arquivo .jar(RotaSegura), clique no espaço em branco da barra de endereços no topo;
+9. Com a pasta aberta, onde se encontra o arquivo .jar(RotaSegura), clique 
+no espaço em branco da barra de endereços no topo;
 10. Escreva “cmd” e tecle Enter;
 11. Execute o programa: Terminal.
 12. Na janela preta do Prompt de Comando que abrir, digite:

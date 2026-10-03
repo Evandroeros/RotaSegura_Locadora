@@ -10,8 +10,8 @@ Está com dificuldades? Instruções passo a passo para a implantação e execu�
 https://github.com/Evandroeros/RotaSegura_Locadora/blob/main/RotaSegura_Locadora/Readme.txt
 
 Diagrama de Classes UML (Simples):
-
-classDiagram
+    
+    classDiagram
     %% Interface e Exceção
     class Documento {
         <<interface>>

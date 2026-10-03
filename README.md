@@ -1,4 +1,4 @@
-Rota Segura Locadora de Veículos
+Rota Segura Locadora de Veículos:
 Sistema de locação de veículos desenvolvido em Java.
 
 Faça o download do repositório do Projeto Rota Segura Locadora de Veículos e execute-o via Prompt 

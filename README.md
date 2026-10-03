@@ -123,6 +123,6 @@ Diagrama de Classes UML (Simples):
     RelatorioAnalitico "1" --> "*" Contrato
 
 Elaborado por: 
-Evandro Rodrigo Olian
-RA 1301392611014
+Evandro Rodrigo Olian - 
+RA 1301392611014 - 
 Curso DSM - Fatec

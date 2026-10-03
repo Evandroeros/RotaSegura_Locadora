@@ -49,7 +49,7 @@ Via Linha de Comando (Terminal):
 2. Clique em “RotaSegura.zip” e baixe o arquivo;
 3. Abra a pasta de Downloads no Explorador de Arquivos;
 4. Clique com o botão direito do mouse no arquivo RotaSegura;
-5. Escolha Extrair tudo... (ou Extract All) e clique no botão Extrair;
+5. Escolha Extrair tudo... (ou Extract All) e clique em Extrair;
 6. Abra a nova pasta gerada: Pasta Extraída.
 7. Entre na nova pasta que foi criada com o nome RotaSegura;
 8. Abra o CMD diretamente na pasta: Barra Superior;

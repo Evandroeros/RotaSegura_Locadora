@@ -5,7 +5,7 @@
 1. DESCRIÇÃO DO PROJETO
 -----------------------
 O RotaSegura é um sistema desenvolvido em Java projetado para gerenciar
-as operações de uma locadora de automóveis. O software lida com o 
+as operações de uma locadora de veículos. O software lida com o 
 cadastro de clientes, controle de diferentes categorias de veículos, 
 emissão e persistência de contratos, além da geração de relatórios.
 
@@ -63,8 +63,7 @@ no espaço em branco da barra de endereços no topo;
 
 5. PERSISTÊNCIA DE DADOS
 ------------------------
-O sistema grava as movimentações e o histórico de execuções diretamente
-no arquivo local:
+O sistema grava o registo de movimentações e o histórico de execuções diretamente num arquivo local:
 * RotaSegura_Locadora/historico_locacoes.txt
 
 ========================================================================

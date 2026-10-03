@@ -63,7 +63,7 @@ no espaço em branco da barra de endereços no topo;
 
 5. PERSISTÊNCIA DE DADOS
 ------------------------
-O sistema grava o registo de movimentações e o histórico de execuções diretamente num arquivo local:
+O sistema registra as movimentações e o histórico de execuções diretamente num arquivo local:
 * RotaSegura_Locadora/historico_locacoes.txt
 
 ========================================================================

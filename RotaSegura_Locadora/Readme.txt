@@ -45,11 +45,20 @@ Via IDE (Método Recomendado):
 3. Execute a classe principal 'Main.java' localizada no pacote 'rota_segura'.
 
 Via Linha de Comando (Terminal):
-1. Abra o prompt na pasta raiz do código fonte (onde fica a pasta 'rota_segura').
-2. Compile todos os arquivos:
-   javac rota_segura/*.java rota_segura/model/*.java rota_segura/service/*.java rota_segura/exception/*.java
-3. Execute a aplicação:
-   java rota_segura.Main
+1. Clique em Lançamentos, na coluna da direita da página principal;
+2. Clique em “RotaSegura.zip” e baixe o arquivo;
+3. Abra a pasta de Downloads no Explorador de Arquivos;
+4. Clique com o botão direito do mouse no arquivo RotaSegura;
+5. Escolha Extrair tudo... (ou Extract All) e clique no botão Extrair;
+6. Abra a nova pasta gerada: Pasta Extraída.
+7. Entre na nova pasta que foi criada com o nome RotaSegura;
+8. Abra o CMD diretamente na pasta: Barra Superior;
+9. Com a pasta aberta, onde se encontra o arquivo .jar(RotaSegura), clique no espaço em branco da barra de endereços no topo;
+10. Escreva “cmd” e tecle Enter;
+11. Execute o programa: Terminal.
+12. Na janela preta do Prompt de Comando que abrir, digite:
+          java -jar RotaSegura.jar
+13.Em seuida, o programa será executado.
 
 5. PERSISTÊNCIA DE DADOS
 ------------------------

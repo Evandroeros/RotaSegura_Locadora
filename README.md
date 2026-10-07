@@ -10,7 +10,7 @@ Está com dificuldades? Instruções passo a passo para a implantação e execu�
 https://github.com/Evandroeros/RotaSegura_Locadora/blob/main/RotaSegura_Locadora/Readme.txt
 
 Diagrama de Classes UML (Simples):
-<img width="750" height="550" alt="image" src="https://github.com/user-attachments/assets/20d90016-ea76-4e92-bba3-5c65de62e326" />
+<img width="800" height="700" alt="image" src="https://github.com/user-attachments/assets/20d90016-ea76-4e92-bba3-5c65de62e326" />
 
 
 

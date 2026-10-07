@@ -59,7 +59,7 @@ no espaço em branco da barra de endereços no topo;
 11. Execute o programa: Terminal.
 12. Na janela preta do Prompt de Comando que abrir, digite:
           java -jar RotaSegura.jar
-13.Em seuida, o programa será executado.
+13.Em seguida, o programa será executado.
 
 5. PERSISTÊNCIA DE DADOS
 ------------------------
